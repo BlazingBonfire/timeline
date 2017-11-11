@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Timeline</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="timeline-title">
+            <a>CREATE YOUR OWN TIMELINE</a>
+        </div>
+        <div id="header-line">
+        </div>
+    </div>
+
+    <div id="menu-panel">
+
+        <div id="timeline-name">
+            <div class="menu-panel-text">
+                <a>Timeline Name</a>
+            </div>
+            <input type="text" name="timeline-name">
+        </div>
+        <br/>
+        <div id="start-year">
+            <div class="menu-panel-text">
+                <a>Start year</a>
+            </div>
+            <input type="text" name="start-year">
+        </div>
+        <br/>
+        <div id="end-year">
+            <div class="menu-panel-text">
+                <a>End year</a>
+            </div>
+            <input type="text" name="end-year">
+        </div>
+        <br/>
+
+        <div id="update-timeline-button">
+            <button type="button">UPDATE</button>
+        </div>
+        <br/>
+        <div id="add-event-button">
+            <button id="add-event-button-button" class="big-beautiful-button" type="button">+ADD EVENT</button>
+        </div>
+        <br/>
+
+        <div id="event-panel-whole">
+        </div>
+
+    </div>
+
+    <div id="ver-line"></div>
+
+    <canvas id="my-canvas"> </canvas>
+
+    <div id="copyright">
+        Copyright &copy; 2017
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script src="canvas.js"></script>
+    <script src="eventPanel.js"></script>
+</body>
+
+</html>

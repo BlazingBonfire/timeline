@@ -1,0 +1,145 @@
+:root {
+    --gap-size: 20px;
+    --header-height: 100px;
+    --header-line-height: 2px;
+    --menu-panel-width: 300px;
+    --vl-width: 1px;
+}
+
+html {
+    font-family: "verdana";
+}
+
+body {
+    padding: var(--gap-size) !important;
+    margin: 0px !important;
+    background-color: white;
+    height: 100% !important;
+}
+
+input {
+    display: inline-block;
+    border-bottom: 2px solid #595959;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    Color: #595959
+}
+
+#header {
+    /*height: var(--header-height);*/
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#timeline-title {
+    height: calc((var(--header-height) - var(--header-line-height)) / 2);
+    font-size: 10px;
+    text-align: center;
+    color: #595959;
+    Width: 100%;
+}
+
+#header-line {
+    margin-top: calc((var(--header-height) - var(--header-line-height)) / 4);
+    margin-bottom: calc((var(--header-height) - var(--header-line-height)) / 4);
+    Border-top: 2px solid #595959;
+    height: var(--header-line-height);
+    position: relative;
+    left: 0px;
+    Right: 0px;
+}
+
+#menu-panel {
+    position: relative;
+    background-color: white;
+    Color: #595959;
+    display: inline-block;
+    top: 0px;
+    bottom: 0px;
+    width: var(--menu-panel-width);
+    font-size: 16px;
+}
+
+.menu-panel-text {
+    color: #595959;
+    display: inline-block;
+}
+
+#timeline-name input {
+    Float: right;
+}
+
+#start-year input {
+    float: right;
+}
+
+#end-year input {
+    Float: right;
+}
+
+#ver-line {
+    border-left: 2px solid #595959;
+    position: absolute;
+}
+
+#my-canvas {
+    position: absolute;
+}
+
+#copyright {
+    padding-left: var(--gap-size);
+    font-size: 10px;
+    color: #888888;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}
+
+#update-timeline-button button{
+    background-color: #e7e7e7;
+    color: #555555;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 2px;
+    padding: 12px 101px;
+    transition-duration: 0.4s;
+    margin-left: 14px;
+}
+
+#update-timeline-button button:hover {
+    background-color: #555555;
+    color: white;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.24);
+}
+
+.event-panel {
+    transition: all 0.5s linear;
+    margin: 20px;
+}
+
+.big-beautiful-button {
+    background-color: #e7e7e7;
+    color: #555555;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 2px;
+    padding: 12px 10px;
+    transition-duration: 0.4s;
+    margin-left: 14px;
+    width: 273px;
+}
+
+.big-beautiful-button:hover {
+    background-color: #555555;
+    color: white;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.24);
+}
+
+p {
+    margin: 0px;
+}
