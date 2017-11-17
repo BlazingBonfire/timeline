@@ -67,7 +67,6 @@ function updateLayout() {
         "margin-top": gapSize,
         "margin-bottom": gapSize
     });
-    console.log(headerHeight);
     header.height(headerHeight);
     timelineTitle.height(headerHeight - 2 * gapSize - headerLineHeight);
     fitTextToDiv(timelineTitle.find("a"), timelineTitle);
