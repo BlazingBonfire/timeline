@@ -93,11 +93,10 @@ class Panel {
         this.nameButton.innerHTML = this.nameInputField.value;
     }
     toggleDetails(){
-        var x = this.eventPanel;
-        if (x.style.display === "none") {
-            x.style.display = "block";
+        if (this.eventPanel.style.display === "none") {
+            this.eventPanel.style.display = "block";
         } else {
-            x.style.display = "none";
+            this.eventPanel.style.display = "none";
         }
     }
 }
